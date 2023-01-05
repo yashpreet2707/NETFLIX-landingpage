@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background-color: #f3f3f3;
-    color: #333;
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -16,53 +16,78 @@ body {
 
 .header {
     display: flex;
-    position: absolute;
     padding: 26px 56px;
-    z-index: 9999;
+    z-index: 999999;
 }
 
+.header-1 {
+    justify-content: space-between;
+    display: flex;
+    margin-right: 10px;
+}
 
-
-.logo-img {
-    position: absolute;
+.logo {
     height: 36px;
+    width: auto;
+    fill: #e50914;
     line-height: normal;
-    /* fill: #e50914; */
-    z-index: 99999;
-}
-
-.language-logo {
+    display: block;
     position: absolute;
-    margin: 6px;
-    padding: 2px;
-    height: 19px;
-    z-index: 99999;
+    z-index: 999999;
 }
 
-.navigation-2 {
+
+.header-2 {
     text-align: right;
+    right: 80px;
+    z-index: 999999;
+    position: absolute;
+}
+
+.lang-logo {
+    filter: invert();
+    height: 22px;
+    padding: 3px 3px 2px 0;
+    margin: 5px;
+    position: absolute;
+    z-index: 999999;
 }
 
 select {
     border: 1px solid #fff;
-    background: transparent;
-    border-radius: 3px;
-    font-weight: 400;
-    display: inline-block;
+    background-color: #333;
     color: #fff;
     padding: 7px 17px;
     padding-right: 5px;
-    padding-left: 22px;
-    margin-right: 30px;
+    border-radius: 3px;
     line-height: 1.4em;
     white-space: nowrap;
-    z-index: 99999;
-    overflow: hidden;
+    font-weight: 450;
+    margin-right: 30px;
 }
 
-option {
-    z-index: 99999;
-    background-color: #333;
+
+a {
+    background-color: #e50914;
+    text-decoration: none;
+    color: #fff;
+    padding: 7px 17px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 100;
 }
+
+
+
+
+
+
+.background {
+    width: 100%;
+    background-image: radial-gradient();
+    background-size: cover;
+}
+
+
 
 

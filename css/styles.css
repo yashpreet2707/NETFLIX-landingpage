@@ -12,25 +12,24 @@ body {
     position: absolute;
     width: 85%;
     margin-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 
 .logo {
-    display: inline-block;
     height: 40px;
 }
 
 .nav-part {
-    position: absolute;
-    top: 40px;
-    left: 80%;
-}
 
+}
 
 .lang-logo {
     filter: invert();
     position: absolute;
-    margin-top: 8px;
-    margin-left: 5px;
+    top: 40px;
 }
 
 header select {
@@ -118,3 +117,11 @@ header select {
     font-size: 22px;
 
 }
+
+
+
+
+section {
+    border-top: 5px solid #333;
+}
+

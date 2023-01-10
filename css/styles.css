@@ -51,6 +51,7 @@ header select {
     text-align: right;
     padding-right: 5px;
 }
+
 select option {
     background-color: #6d6464;
 }
@@ -98,9 +99,11 @@ select option {
 }
 .main-part h2 {
     font-size: 26px;
+    padding: 10px 0;
 }
 .main-part p {
     font-size: 22px;
+    padding: 15px 0 25px;
 }
 
 .main-part input {
@@ -133,12 +136,20 @@ select option {
 }
 
 
-/* from here secitions of page starts  */
+/* from here sections of page starts  */
 
 section {
-    border-top: 10px solid #333;
+    border-top: 7px solid #333;
     display: flex;
     padding: 50px 5%;
+}
+
+section h1 {
+    font-size: 48px;
+}
+
+section p {
+    font-size: 1.6em;
 }
 
 /* First section */
@@ -147,13 +158,164 @@ section {
     margin: auto;
 }
 
-.first-section-text h1 {
-    font-size: 48px;
-    color: #fff;
-    padding: 0 0 0.4em;
+
+/* Second section */
+
+
+.second-section-text {
+    margin: auto;
 }
 
-.first-section-text p {
-    font-size: 1.6em;
+
+/* Third section */
+
+.third-section-text {
+    margin: auto;
+}
+
+/* Fourth section */
+
+.fourth-section-text {
+    margin: auto;
+}
+
+/* FAQ - Frequently asked questions */
+
+
+.FAQ {
+    border-top: 10px solid #333;
+    padding: 50px 5%;
+}
+
+.FAQ-h1 {
+    font-size: 27px;
+    padding: 5%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+
+.FAQ-questions {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.FAQ-questions h2 {
+    font-size: 26px;
+    background-color: #333;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.FAQ p {
+    font-size: 22px;
+    padding: 60px 0 35px;
+    text-align: center;
+}
+
+.FAQ-email {
+    position: absolute;
+    margin-left: 18%;
+}
+
+.FAQ-email input {
+    width: 550px;
+    height: 3.6rem;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 3px;
+
+}
+
+.FAQ-btn {
+    background-color: #e50914;
+    height: 3.6rem;
+    text-align: center;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.FAQ-btn a {
+    text-decoration: none;
     color: #fff;
+    font-size: 22px;
+}
+
+
+
+/* Footer  */
+
+footer {
+    border-top: 7px solid #333;
+    border-bottom: 7px solid #333;
+    margin-top: 5%;
+    padding: 5%;
+    color: #737373;
+}
+
+footer p {
+    margin-left: 12.5%;
+    font-size: 16px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #737373;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer-li {
+    width: 75%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.footer-li ul {
+    display: block;
+}
+
+.footer-li ul li {
+    list-style: none;
+    line-height: 2;
+}
+
+.footer-li ul a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 16px;
+}
+.footer-li ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* .footer-lang-logo {
+    filter: invert();
+} */
+
+footer select {
+    background: transparent;
+    color: #737373;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 25px;
+    border: 1px solid #737373;
+    margin-left: 12%;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 12%;
 }

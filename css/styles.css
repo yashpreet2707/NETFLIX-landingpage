@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #000;
     color: #fff;
@@ -6,7 +11,7 @@ body {
 
 header {
     min-width: 90vw;
-    min-height: 100vh;
+    min-height: 90vh;
   }
 
 .navigation-bar {
@@ -33,7 +38,8 @@ header {
 .lang-logo {
     filter: invert();
     position: absolute;
-    top: 40px;
+    top: 48px;
+    right: 19%;
 }
 
 header select {
@@ -44,6 +50,9 @@ header select {
     color: #fff;
     text-align: right;
     padding-right: 5px;
+}
+select option {
+    background-color: #6d6464;
 }
 
 .sign-in-btn {
@@ -96,8 +105,8 @@ header select {
 
 .main-part input {
     width: 550px;
-    height: 3.3rem;
-    font-size: 18px;
+    height: 3.6rem;
+    font-size: 22px;
     text-align: left;
     display: inline-block;
     border-radius: 3px;
@@ -124,9 +133,27 @@ header select {
 }
 
 
-
+/* from here secitions of page starts  */
 
 section {
-    border-top: 5px solid #333;
+    border-top: 10px solid #333;
+    display: flex;
+    padding: 50px 5%;
 }
 
+/* First section */
+
+.first-section-text {
+    margin: auto;
+}
+
+.first-section-text h1 {
+    font-size: 48px;
+    color: #fff;
+    padding: 0 0 0.4em;
+}
+
+.first-section-text p {
+    font-size: 1.6em;
+    color: #fff;
+}

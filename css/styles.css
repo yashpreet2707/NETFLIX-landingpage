@@ -166,6 +166,19 @@ section p {
     margin: auto;
 }
 
+.img-video-1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-1 {
+    position: absolute;
+    right: 142px;
+    width: 360px;
+    top: 106.3%;
+    z-index: -1;
+}
+
 
 /* Second section */
 
@@ -174,6 +187,19 @@ section p {
     margin: auto;
 }
 
+.img-2 {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.video-2 {
+    width: 410px;
+    position: absolute;
+    right: 13%;
+    top: 221%;
+    z-index: -1;
+}
 
 /* Third section */
 

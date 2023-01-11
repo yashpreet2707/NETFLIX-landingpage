@@ -116,9 +116,13 @@ select option {
     padding-left: 20px;
 }
 
+.main-part input:focus {
+    outline: none;
+}
+
 .main-part .get-started-btn {
     background-color: #e50914;
-    height: 3.6rem;
+    height: 3.8rem;
     width: 200px;
     text-align: center;
     border-radius: 3px;
@@ -126,6 +130,10 @@ select option {
     bottom: 0;
     right: 0;
 
+}
+
+.main-part .get-started-btn:focus {
+    outline: none;
 }
 
 .get-started-btn a {
@@ -217,7 +225,7 @@ section p {
 
 .FAQ-email {
     position: absolute;
-    margin-left: 18%;
+    margin-left: 23%;
 }
 
 .FAQ-email input {
@@ -229,13 +237,22 @@ section p {
     border-radius: 3px;
 
 }
+.FAQ-email input:focus {
+    outline: none;
+}
 
 .FAQ-btn {
     background-color: #e50914;
-    height: 3.6rem;
+    height: 3.8rem;
     text-align: center;
     border-radius: 3px;
     width: 200px;
+    position: relative;
+    right: 18%;
+    padding-bottom: 2px;
+}
+.FAQ-btn:focus {
+    outline: none;
 }
 
 .FAQ-btn a {

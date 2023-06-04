@@ -226,7 +226,7 @@ section p {
     width: 410px;
     position: absolute;
     right: 13%;
-    top: 221%;
+    top: 224%;
     z-index: -1;
 }
 
@@ -389,6 +389,12 @@ footer p {
 
 @media screen and (min-width: 360px) and (max-width: 740px) {
     
+
+    .background-div {
+        height: 70vh ;
+        box-shadow: 10px -100px 250px #000000, inset -20px -50px 6550px #000000;
+    }
+
     .navigation-bar {
         padding: 0 ;
         width: 90vw ;
@@ -406,21 +412,38 @@ footer p {
     }
     
     .logo {
-        height: 35px;
-    }
-
-    .background-div {
-        height: 100vh;
-        box-shadow: 10px -100px 250px #000000, inset -20px -50px 6550px #000000;
+        height: 25px;
     }
 
     .main-part {
         display: none;
     }
 
+    /* First section */
+
     .first-section {
+        margin-top: 75px ;
+    }
+
+    .first-section-text h1 {
+        font-size: 2rem;
+        background-color: #000;
+        z-index: 9999999999;
+    }   
+
+    .first-section-text p {
+        font-size: 1.125rem;
+    }
+
+    .img-video-1 {
         display: none;
     }
+
+    .video-1 {
+        display: none;
+    }
+
+    /* Second section  */
 
     .second-section {
         display: none;

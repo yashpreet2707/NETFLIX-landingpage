@@ -246,14 +246,13 @@ section p {
 
 .FAQ-h1 {
     font-size: 27px;
-    padding: 5%;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     text-align: center;
 }
 
 
 .FAQ-questions {
-    width: 55%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -264,6 +263,7 @@ section p {
     background-color: #333;
     padding: 30px;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .FAQ p {
